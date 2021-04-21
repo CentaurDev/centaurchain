@@ -1,14 +1,15 @@
 accounts:
-  - name: alice
-    coins: ["1000token", "100000000stake"]
-  - name: bob
-    coins: ["500token"]
+  - name: cntr-node1
+    coins: ["5000000000000000000000000000cntr"]
 validator:
-  name: alice
-  staked: "100000000stake"
-client:
-  vuex:
-    path: "vue/src/store"
-faucet:
-  name: bob 
-  coins: ["5token"]
+  name: cntr-node1
+  staked: "2500000000000000000000000cntr"
+genesis:
+  chain_id: "testnet"
+  app_state:
+    staking:
+      params:
+        bond_denom: "cntr"
+    mint:
+      params:
+        mint_denom: "cntr"
