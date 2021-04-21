@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
+	"github.com/CentaurDev/centaurchain/x/mint/client/cli"
+	minttypes "github.com/CentaurDev/centaurchain/x/mint/types"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	testnet "github.com/cosmos/cosmos-sdk/testutil/network"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/CentaurDev/centaurchain/x/mint/client/cli"
-	minttypes "github.com/CentaurDev/centaurchain/x/mint/types"
 )
 
 type IntegrationTestSuite struct {

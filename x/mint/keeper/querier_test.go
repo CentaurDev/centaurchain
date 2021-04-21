@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	keep "github.com/CentaurDev/centaurchain/x/mint/keeper"
 	"github.com/CentaurDev/centaurchain/x/mint/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

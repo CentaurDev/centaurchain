@@ -3,6 +3,7 @@ module github.com/CentaurDev/centaurchain
 go 1.15
 
 require (
+	github.com/CosmWasm/wasmd v0.14.1-0.20210113091717-f9015cba4793
 	github.com/cosmos/cosmos-sdk v0.42.1
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/protobuf v1.4.3
