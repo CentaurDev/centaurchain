@@ -13,3 +13,11 @@ genesis:
     mint:
       params:
         mint_denom: "cntr"
+    gov:
+      deposit_params:
+        min_deposit:
+        - amount: "1000000000000000000"
+          denom: "cntr"
+    crisis:
+      constant_fee:
+        denom: "cntr"
