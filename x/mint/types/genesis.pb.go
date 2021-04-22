@@ -79,7 +79,7 @@ func (m *GenesisState) GetParams() Params {
 }
 
 func init() {
-	proto.RegisterType((*GenesisState)(nil), "cosmos.mint.v1beta1.GenesisState")
+	proto.RegisterType((*GenesisState)(nil), "centaurchain.mint.v1beta1.GenesisState")
 }
 
 func init() { proto.RegisterFile("cosmos/mint/v1beta1/genesis.proto", fileDescriptor_0e215eb1d09cd648) }

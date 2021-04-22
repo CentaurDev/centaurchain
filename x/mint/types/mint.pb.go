@@ -128,8 +128,8 @@ func (m *Params) GetBlocksPerYear() uint64 {
 }
 
 func init() {
-	proto.RegisterType((*Minter)(nil), "cosmos.mint.v1beta1.Minter")
-	proto.RegisterType((*Params)(nil), "cosmos.mint.v1beta1.Params")
+	proto.RegisterType((*Minter)(nil), "centaurchain.mint.v1beta1.Minter")
+	proto.RegisterType((*Params)(nil), "centaurchain.mint.v1beta1.Params")
 }
 
 func init() { proto.RegisterFile("cosmos/mint/v1beta1/mint.proto", fileDescriptor_2df116d183c1e223) }

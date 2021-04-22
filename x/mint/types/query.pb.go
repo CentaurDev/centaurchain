@@ -269,12 +269,12 @@ func (m *QueryAnnualProvisionsResponse) XXX_DiscardUnknown() {
 var xxx_messageInfo_QueryAnnualProvisionsResponse proto.InternalMessageInfo
 
 func init() {
-	proto.RegisterType((*QueryParamsRequest)(nil), "cosmos.mint.v1beta1.QueryParamsRequest")
-	proto.RegisterType((*QueryParamsResponse)(nil), "cosmos.mint.v1beta1.QueryParamsResponse")
-	proto.RegisterType((*QueryInflationRequest)(nil), "cosmos.mint.v1beta1.QueryInflationRequest")
-	proto.RegisterType((*QueryInflationResponse)(nil), "cosmos.mint.v1beta1.QueryInflationResponse")
-	proto.RegisterType((*QueryAnnualProvisionsRequest)(nil), "cosmos.mint.v1beta1.QueryAnnualProvisionsRequest")
-	proto.RegisterType((*QueryAnnualProvisionsResponse)(nil), "cosmos.mint.v1beta1.QueryAnnualProvisionsResponse")
+	proto.RegisterType((*QueryParamsRequest)(nil), "centaurchain.mint.v1beta1.QueryParamsRequest")
+	proto.RegisterType((*QueryParamsResponse)(nil), "centaurchain.mint.v1beta1.QueryParamsResponse")
+	proto.RegisterType((*QueryInflationRequest)(nil), "centaurchain.mint.v1beta1.QueryInflationRequest")
+	proto.RegisterType((*QueryInflationResponse)(nil), "centaurchain.mint.v1beta1.QueryInflationResponse")
+	proto.RegisterType((*QueryAnnualProvisionsRequest)(nil), "centaurchain.mint.v1beta1.QueryAnnualProvisionsRequest")
+	proto.RegisterType((*QueryAnnualProvisionsResponse)(nil), "centaurchain.mint.v1beta1.QueryAnnualProvisionsResponse")
 }
 
 func init() { proto.RegisterFile("cosmos/mint/v1beta1/query.proto", fileDescriptor_d0a1e393be338aea) }
@@ -341,7 +341,7 @@ func NewQueryClient(cc grpc1.ClientConn) QueryClient {
 
 func (c *queryClient) Params(ctx context.Context, in *QueryParamsRequest, opts ...grpc.CallOption) (*QueryParamsResponse, error) {
 	out := new(QueryParamsResponse)
-	err := c.cc.Invoke(ctx, "/cosmos.mint.v1beta1.Query/Params", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/centaurchain.mint.v1beta1.Query/Params", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -350,7 +350,7 @@ func (c *queryClient) Params(ctx context.Context, in *QueryParamsRequest, opts .
 
 func (c *queryClient) Inflation(ctx context.Context, in *QueryInflationRequest, opts ...grpc.CallOption) (*QueryInflationResponse, error) {
 	out := new(QueryInflationResponse)
-	err := c.cc.Invoke(ctx, "/cosmos.mint.v1beta1.Query/Inflation", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/centaurchain.mint.v1beta1.Query/Inflation", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -359,7 +359,7 @@ func (c *queryClient) Inflation(ctx context.Context, in *QueryInflationRequest, 
 
 func (c *queryClient) AnnualProvisions(ctx context.Context, in *QueryAnnualProvisionsRequest, opts ...grpc.CallOption) (*QueryAnnualProvisionsResponse, error) {
 	out := new(QueryAnnualProvisionsResponse)
-	err := c.cc.Invoke(ctx, "/cosmos.mint.v1beta1.Query/AnnualProvisions", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/centaurchain.mint.v1beta1.Query/AnnualProvisions", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -404,7 +404,7 @@ func _Query_Params_Handler(srv interface{}, ctx context.Context, dec func(interf
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cosmos.mint.v1beta1.Query/Params",
+		FullMethod: "/centaurchain.mint.v1beta1.Query/Params",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).Params(ctx, req.(*QueryParamsRequest))
@@ -422,7 +422,7 @@ func _Query_Inflation_Handler(srv interface{}, ctx context.Context, dec func(int
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cosmos.mint.v1beta1.Query/Inflation",
+		FullMethod: "/centaurchain.mint.v1beta1.Query/Inflation",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).Inflation(ctx, req.(*QueryInflationRequest))
@@ -440,7 +440,7 @@ func _Query_AnnualProvisions_Handler(srv interface{}, ctx context.Context, dec f
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cosmos.mint.v1beta1.Query/AnnualProvisions",
+		FullMethod: "/centaurchain.mint.v1beta1.Query/AnnualProvisions",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(QueryServer).AnnualProvisions(ctx, req.(*QueryAnnualProvisionsRequest))
@@ -449,7 +449,7 @@ func _Query_AnnualProvisions_Handler(srv interface{}, ctx context.Context, dec f
 }
 
 var _Query_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "cosmos.mint.v1beta1.Query",
+	ServiceName: "centaurchain.mint.v1beta1.Query",
 	HandlerType: (*QueryServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
