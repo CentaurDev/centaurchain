@@ -30,14 +30,112 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr19cke2ftadnj7wcfg49gxnk4y7l7aqw26ag7tjv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr15tgklzvpztujp08yxpauakjqa79e5va3qagzkg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr17wk73zhhs78n0aa2h58u6ts9dx4tc7a6ujsnsq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr1meqtjl48l43se8lkn9lmly77802we8fq7ldpxj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr1hcym6lrnnewkzj2vkltu67x42eg5juptpawa7u",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "cntr15vh3ckw64kfh2jwrt5d0msfy36tazr8feqedte",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
     },
     "bank": {
       "params": {
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
+      "balances": [
+        {
+          "address": "cntr19cke2ftadnj7wcfg49gxnk4y7l7aqw26ag7tjv",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "4990000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cntr15tgklzvpztujp08yxpauakjqa79e5va3qagzkg",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "2500000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cntr15vh3ckw64kfh2jwrt5d0msfy36tazr8feqedte",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "2500000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cntr1hcym6lrnnewkzj2vkltu67x42eg5juptpawa7u",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "2500000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cntr1meqtjl48l43se8lkn9lmly77802we8fq7ldpxj",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "2500000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cntr17wk73zhhs78n0aa2h58u6ts9dx4tc7a6ujsnsq",
+          "coins": [
+            {
+              "denom": "cntr",
+              "amount": "2500000000000000000000000"
+            }
+          ]
+        }
+      ],
       "supply": [],
       "denom_metadata": []
     },
