@@ -19,7 +19,7 @@ starport build
 
 ## Running a node
 
-1 Initialize validators's and node's configuration files.
+1. Initialize validators's and node's configuration files.
 ```
 centaurchaind init [moniker] --chain-id centaurchain
 ```
