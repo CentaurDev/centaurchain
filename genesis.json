@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-04-21T12:22:44.85982544Z",
+  "genesis_time": "2021-04-27T20:04:16.623657312Z",
   "chain_id": "centaurchain",
   "initial_height": "1",
   "consensus_params": {
@@ -86,7 +86,7 @@
           "coins": [
             {
               "denom": "cntr",
-              "amount": "4990000000000000000000000000"
+              "amount": "4987500000000000000000000000"
             }
           ]
         },
