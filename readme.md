@@ -29,9 +29,9 @@ centaurchaind init [moniker] --chain-id centaurchain
 cp /centaurchain/genesis.json ~/.centaurchain/config/genesis.json
 ```
 
-3. Run the node (Get seeds from genesis.json)
+3. Run the node
 ```
-centaurchaind start --p2p.seeds [ID@host:port]
+centaurchaind start --p2p.seeds "5c2861f0c73222e9a67967d45f7301fba2e8572d@64.225.103.191:26656,6577e64ac8799559f278eadb2fd51e88b63ffa58@174.138.30.107:26656,7f31fbd52e4cbb363e5b1626cbcaf30d470ad1a4@139.59.244.72:26656,9785c21dceb2e2735f7cec5d9ad74681173bf224@138.68.143.66:26656,f4bd87cb114cbfa71b0c3bb3cc453d9d77eeeafe@142.93.233.11:26656"
 ```
 
 ## Becoming a validator
