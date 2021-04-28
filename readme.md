@@ -41,7 +41,7 @@ centaurchaind start --p2p.seeds [ID@host:port]
 centaurchaind keys add <key_name>
 ```
 
-3. Send create-validator TX
+2. Send create-validator TX
 ```
 centaurchaind tx staking create-validator \
   --amount=2500000000000000000000000cntr \
